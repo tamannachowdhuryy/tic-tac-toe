@@ -1,1 +1,11 @@
-Created a python and c++ tic-tac-toe game 
+I coded up The game of Tic Tac Toe which is played on a 3x3 grid in C++ and Python. First the grid is initially empty. Two players take turns, one playing as 'X' and the other as 'O'. The goal of the game is to get three of your symbols in a row, either horizontally, vertically, or diagonally.
+
+At the start of the game, the empty grid is displayed. Each cell of the grid is represented by a number from 1 to 9. Players take turns choosing a number that corresponds to a cell they want to place their symbol in.
+
+After each move, the grid is updated and displayed again. The players continue taking turns until one of them manages to get three of their symbols in a row or if the entire grid is filled without a winner, resulting in a draw.
+
+To win, a player must have three of their symbols in a horizontal, vertical, or diagonal line. If a player achieves this, the game ends and they are declared the winner. If all the cells are filled and no player has won, the game is declared a draw.
+
+The game can be played by two human players or a human player against an AI opponent. The AI opponent can be programmed to make intelligent moves using strategies such as looking for winning moves or blocking the opponent from winning.
+
+The players can play multiple rounds of Tic Tac Toe, keeping track of their wins and draws. The game continues until the players decide to quit.
